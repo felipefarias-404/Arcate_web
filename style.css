@@ -1,3 +1,11 @@
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+/* Corpo da página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,10 +13,10 @@ body {
     background: linear-gradient(to bottom, black 30%, #800000 50%, black 100%);
     ;
 }
-
+/* Cabeçalho */
 .header {
     background-color: #000000;
-    color: #fff;
+    color: #ffffff;
     padding: 1rem 0;
 }
 
@@ -16,9 +24,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 2rem;
 }
 
 
