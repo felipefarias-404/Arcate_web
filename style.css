@@ -1,23 +1,32 @@
-
 .main {
+    display: block;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 2rem;
 }
+
 /* Corpo da página */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 2rem;
     background: linear-gradient(to bottom, black 30%, #800000 50%, black 100%);
     ;
 }
+
 /* Cabeçalho */
 .header {
     background-color: #000000;
     color: #ffffff;
     padding: 1rem 0;
+}
+
+.btn-secondary {
+    display: flex;
+    background-color: #800000;
+    margin: 0 auto;
+    border-color: #800000;
 }
 
 .header .container {
